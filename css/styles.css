@@ -1,0 +1,35 @@
+body {
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: #212121;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.header-link {
+    color: #212121;
+    color: #4D5AE5;;
+
+}
+.title {
+    color: white;
+    background-color: #212121;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button-link {
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
