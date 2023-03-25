@@ -81,7 +81,7 @@ body {
    font-style: normal;
    font-weight: 500;
    font-size: 20px;
-   line-height: 24px;
+   line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2E2F42;
    margin: 12px 0 32px 0;
@@ -98,9 +98,22 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.title-second {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitaliz;
+    color:#2e2f42;
+}
+
+.team {
+    background-color: #F4F4FD;
+
 }
 
 .bottom {
@@ -117,4 +130,14 @@ body {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     margin: 16px 0 16px 30px;
+}
+
+.button-link-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
 }
