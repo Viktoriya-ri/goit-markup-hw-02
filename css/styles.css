@@ -7,7 +7,15 @@ body {
         line-height: 24px;
         /* or 171% */
         letter-spacing: 0.03em;
-        color: #757575;
+        color: #434455;
+        background-color: #FFFFFF;
+}
+
+.:root {
+    --color-primary: #212121;
+    --color-action: #2196F3;
+    --color-white: #ffffff;
+    --color-brand-ligft: #edf7fa;
 }
 .header-link {
     color: #4D5AE5;
