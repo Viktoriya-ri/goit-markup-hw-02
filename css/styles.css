@@ -27,7 +27,14 @@ body {
     line-height: 1.17;
     text-transform: uppercase;
     color: #4d5ae5;
+    letter-spacing: 0.03em;
+    margin-left: 30px;
 }
+.name-1 {
+    color: #2e2f42;
+
+}
+
 .title {
     color: white;
     font-family: 'Roboto';
@@ -86,4 +93,20 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.bottom {
+    background-color:#2e2f42;
+}
+.name-2 {
+    color: #F4F4FD;
+}
+.text-bottom {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    margin: 16px 0 16px 30px;
 }
