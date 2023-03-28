@@ -16,8 +16,9 @@ body {
     --color-white: #ffffff;
     --color-brand-ligft: #edf7fa;
 }
-.header-link {
+.link {
     color: #4D5AE5;
+    text-decoration: none;
 }
 
 .logo {
@@ -30,12 +31,26 @@ body {
     letter-spacing: 0.03em;
     margin-left: 30px;
 }
+.social-links .link:hover,
+.social-links .link:focus {
+    color: #404bbf;
+}
+
 .name-1 {
     color: #2e2f42;
 
 }
-
-.title {
+.page {
+    font-style: normal;
+}
+.list {
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.container-title {
     color: white;
     font-family: 'Roboto';
     font-style: normal;
