@@ -85,7 +85,6 @@ body {
 }
 
 .button-link {
-    background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding 16px, 32px, 16px, 32px;
@@ -97,6 +96,7 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    background-color: #4D5AE5;
 }  
 .button-link:hover,
 .button-link:focus {
