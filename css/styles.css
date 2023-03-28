@@ -35,7 +35,7 @@ body {
     letter-spacing: 0.03em;
     margin-left: 30px;
 }
-.header-list {
+.list-item {
     list-style: none;
 }
 .link {
@@ -47,8 +47,8 @@ body {
     text-decoration: none;
 }
 
-.social-links .link:hover,
-.social-links .link:focus {
+.link:hover,
+.link:focus {
     color: #404bbf;
 }
 
