@@ -67,8 +67,9 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address:hover,
-.address:focus {
+
+.col-list:hover,
+.col-list:focus {
     color: #404bbf;
 }
 .list {
