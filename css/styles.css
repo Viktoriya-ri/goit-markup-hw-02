@@ -10,7 +10,7 @@ body {
         background-color: #FFFFFF;
 }
 
-.:root {
+:root {
     --color-primary_brand: #4D5AE5;
     --color-pressed_state: #404BBF;
     --color-modal_background: #FCFCFC;
@@ -35,15 +35,13 @@ body {
     letter-spacing: 0.03em;
     margin-left: 30px;
 }
-.list {
-    list-style: none;
-}
-.address-link {
-    font-weight: 500;
+
+.link {
+    font-weight:500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: color-modal_overlay;
+    color: #2e2f42;
     text-decoration: none;
 }
 
@@ -84,7 +82,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.button-link {
+.button-link-p {
     background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -98,8 +96,8 @@ body {
     color: #ffffff;
     cursor: pointer;
  }  
-.button-link:hover,
-.button-link:focus {
+.button-link-p:hover,
+.button-link-p:focus {
     background-color: #404BBF;
 }
 .visually-hidden {
