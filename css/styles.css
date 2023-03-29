@@ -57,6 +57,9 @@ body {
 .page {
     font-style: normal;
 }
+.page-list {
+    list-style: none;
+}
 .list {
     list-style: none;
     font-size: 16px;
@@ -98,6 +101,7 @@ body {
  }  
 .button-link-p:hover,
 .button-link-p:focus {
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 .visually-hidden {
