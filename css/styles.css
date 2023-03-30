@@ -22,8 +22,15 @@ body {
         letter-spacing: 0.03em;
         color: #434455;
         background-color: #FFFFFF;
-}
 
+}
+/*reset*/
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
 
 /*Header*/
 .header-logo {
@@ -47,8 +54,7 @@ body {
     text-decoration: none;
 }
 
-.header-logo:hover,
-.header-logo:focus {
+.header-logo:hover,.header-logo:focus {
     color: #404bbf;
 }
 
@@ -81,17 +87,7 @@ body {
 }
 
 /*Main*/
-.container-title {
-    color: white;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    background: #2E2F42;
-    line-height: 1.07;
-}
+
 .title {
     font-size: 56px;
     line-height: 1.07;
