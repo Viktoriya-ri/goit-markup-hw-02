@@ -48,7 +48,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-text);
+    color: var(--color-modal_overlay);
 }
 
 .header-logo:hover,.header-logo:focus {
@@ -238,3 +238,4 @@ body {
     letter-spacing: 0.03em;
     margin-left: 30px;
 }
+/*main portfolio*/
