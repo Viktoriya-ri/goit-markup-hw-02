@@ -67,15 +67,9 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.col-list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#4D5AE5;
-}
-.col-list:hover,
-.col-list:focus {
+
+.nav-list:hover,
+.nav-list:focus {
     color: #404bbf;
 }
 .list {
