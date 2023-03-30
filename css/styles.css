@@ -73,15 +73,10 @@ body {
     color: var(--color-text);
 }
 
-.link:hover {
+.link:hover,.link:focus {
     color: #404bbf;
 }
-.link:focus {
-    color: #404bbf;
-}
-.list {
-    list-style: none;
-}
+
 
 /*Main*/
 .section {
