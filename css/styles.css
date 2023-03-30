@@ -68,8 +68,8 @@ body {
     color: #434455;
 }
 
-.nav-list:hover,
-.nav-list:focus {
+.link:hover,
+.link:focus {
     color: #404bbf;
 }
 .list {
