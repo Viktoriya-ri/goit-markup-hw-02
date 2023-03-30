@@ -87,7 +87,10 @@ body {
 }
 
 /*Main*/
-
+.section {
+    background-color: var(--color-modal_overlay);
+    color: #FFFFFF;
+}
 .title {
     font-size: 56px;
     line-height: 1.07;
