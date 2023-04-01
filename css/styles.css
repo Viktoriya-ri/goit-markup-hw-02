@@ -12,13 +12,10 @@
     --color-grey: #2E2F42;
     --color-white: #FFFFFF;
 }
-html,
 body {
-        font-family: 'Raleway', sans-serif;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
+        line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--color-slate);
         background-color: var(--color-white);
@@ -62,10 +59,7 @@ body {
 .page {
     font-style: normal;
 }
-.page-list {
-    list-style: none;
-    font-style: normal;
-}
+
 .address {
     font-size: 16px;
     line-height: 1.5;
@@ -95,8 +89,6 @@ body {
     background-color: var(--color-iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    padding 16px, 32px, 16px, 32px;
-    margin: 356px, 635px, 188px, 636px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -109,8 +101,6 @@ body {
     background-color: var(--color-cloud);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    padding 16px, 32px, 16px, 32px;
-    margin: 356px, 635px, 188px, 636px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -135,9 +125,7 @@ body {
 }
 
 .facts-container{
-    width: 1128px;
-    display: flex;
-    justify-content: space-between;
+       justify-content: space-between;
 }
 
 .item {
@@ -145,7 +133,6 @@ body {
 }
 
 .fact-title {
-   font-style: normal;
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -155,14 +142,11 @@ body {
 }
 
 .facts {
-    padding: 52px 0 72px;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .fact-descr {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -191,13 +175,11 @@ body {
     color: var(--color-cloud);
 }
 .text-bottom {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-cloud);
-    margin: 16px 0 16px 30px;
 }
 
 .button-link-p {
